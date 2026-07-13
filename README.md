@@ -1,7 +1,6 @@
 # AI Coding Agent
 
-Built an AI coding agent using Python, FastAPI, LangGraph, LangChain, MCP, GitHub API, OpenAI/Claude, and Docker. It supports repository Q&A, code review, bug triage, documentation generation, and GitHub issue analysis, then proposes code fixes and pull request workflows with safe, modular tools.
-
+This project built a production-ready AI coding agent using Python, FastAPI, LangGraph, LangChain, MCP, GitHub API, OpenAI/Claude, and Docker. Developed modular multi-agent workflows for repository Q&A, code review, bug triage, documentation generation, GitHub issue analysis, and automated pull request generation through scalable REST APIs.
 
 ## Features in this project
 

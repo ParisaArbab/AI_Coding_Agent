@@ -1,0 +1,5 @@
+{
+  "task_type": "repository_qa",
+  "instruction": "Explain the architecture and main request flow.",
+  "repository_path": "sample_repo"
+}

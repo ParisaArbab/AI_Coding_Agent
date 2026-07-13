@@ -168,6 +168,4 @@ The starter graph does not automatically apply patches. This is intentional. A p
 
 
 
-## Resume description
 
-Built an AI coding agent with FastAPI, LangGraph, MCP, GitHub API, and OpenAI/Claude integrations. The system supports repository Q&A, issue analysis, code review, bug triage, documentation generation, and protected pull request workflows using modular tools and Docker deployment.

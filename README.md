@@ -28,7 +28,7 @@ Client -> FastAPI -> LangGraph Agent
                        |-> MCP server
 ```
 
-The LangGraph workflow has three steps: collect context, analyze, and finalize. The design is intentionally simple so you can add testing, patch application, human approval, and pull request nodes.
+The LangGraph workflow has three steps: collect context, analyze, and finalize. The design is intentionally simple, so we can add testing, patch application, human approval, and pull request nodes.
 
 ## Project structure
 

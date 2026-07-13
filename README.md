@@ -1,8 +1,9 @@
 # AI Coding Agent
 
-A GitHub-friendly starter project for an AI software engineering agent.
+Built an AI coding agent using Python, FastAPI, LangGraph, LangChain, MCP, GitHub API, OpenAI/Claude, and Docker. It supports repository Q&A, code review, bug triage, documentation generation, and GitHub issue analysis, then proposes code fixes and pull request workflows with safe, modular tools.
 
-## Features
+
+## Features in this project
 
 - GitHub issue analysis and fix proposal
 - Repository question answering
@@ -165,16 +166,7 @@ ALLOW_PR_CREATION=true
 
 The starter graph does not automatically apply patches. This is intentional. A production agent should require human approval before branch creation, file updates, or pull request submission.
 
-## Production improvements
 
-- Add sandboxed test execution
-- Validate patches with `git apply --check`
-- Use a GitHub App with minimum permissions
-- Add LangGraph checkpoints and durable jobs
-- Add webhook support
-- Add semantic code search
-- Add audit logging and tracing
-- Add secret scanning and prompt injection defenses
 
 ## Resume description
 

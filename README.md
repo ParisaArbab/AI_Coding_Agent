@@ -369,13 +369,10 @@ Recommended 30-second demo flow:
 
 The architecture and core workflows are complete for a portfolio demonstration. Production deployment still requires sandboxed execution, stronger retrieval, persistent job storage, authentication, observability, and a human approval interface.
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Author
 
 **Parisa Arbab**
 
 - GitHub: [ParisaArbab](https://github.com/ParisaArbab)
-- LinkedIn: Add your LinkedIn profile URL before publishing the repository
+- LinkedIn: [parisa-arbab](https://www.linkedin.com/in/parisa-arbab/)

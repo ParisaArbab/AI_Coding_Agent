@@ -1,0 +1,16 @@
+{
+  "task_type": "bug_triage",
+  "summary": "The divide function does not validate a zero divisor.",
+  "analysis": "calculator.py directly performs a / b. Python raises ZeroDivisionError when b is zero.",
+  "proposed_changes": [
+    "Validate the divisor before division",
+    "Raise a clear ValueError for zero input",
+    "Add tests for normal and zero-divisor cases"
+  ],
+  "patch": "--- a/calculator.py\n+++ b/calculator.py\n@@\n+    if b == 0:\n+        raise ValueError('b must not be zero')",
+  "files_considered": [
+    "calculator.py",
+    "README.md"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "benchmark_type": "static engineering baseline",
+  "python_files_checked": 35,
+  "python_syntax_passed": true,
+  "compile_failures": [],
+  "supported_task_types": [
+    "bug_triage",
+    "code_review",
+    "documentation",
+    "issue_fix",
+    "repository_qa"
+  ],
+  "task_type_coverage": "5/5",
+  "security_tests_present": true,
+  "api_test_present": true,
+  "ci_workflow_present": true,
+  "elapsed_seconds": 0.024,
+  "limitations": "This baseline validates project structure and syntax. It does not claim LLM accuracy.",
+  "local_unit_tests": "4/4 passed",
+  "full_suite_note": "The API test requires project dependencies, including LangGraph, to be installed."
+}
